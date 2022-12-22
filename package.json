@@ -1,0 +1,28 @@
+{
+  "name": "weatherapp-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wafas-repo/WeatherApp-2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wafas-repo/WeatherApp-2.0/issues"
+  },
+  "homepage": "https://github.com/wafas-repo/WeatherApp-2.0#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "node-fetch": "^3.3.0"
+  }
+}
