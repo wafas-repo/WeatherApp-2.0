@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>WeatherApp</title>
+</head>
+<body>
+
+    <main>
+
+        <div class="change-unit">
+            <div class="wob_t c-btn" style="display:inline-block;">°C</div> 
+            <span class="Az4ne"></span>
+            <div class="wob_t f-btn" style="display:inline-block;">°F</div>
+        </div>
+
+        <div class="current-weather">
+            <div class="search-div">
+                <form class="search-bar">
+                    <input id="city-name" type="text" placeholder="Enter city name" required>
+                    <button class="btn" type="submit"><img class="search-img" src="./img/search.png"></button>
+                </form>
+            </div> 
+        </div>
+
+        <div class="city-info">
+            <div class="city-name"></div>
+            <div class="dt"></div>
+        </div>
+
+        <div class="weather-result">
+            <div class="weather-icon"><img class="weather-img" src="./img/" alt=""></div>
+            <div class="temperature"></div>
+            <div class="high-low"></div>
+            <div class="feels-like"></div>
+        </div>
+
+        <div class="weather-description"></div>
+
+        <div class="daily-forecast">
+            <div class="forecast-cell" id="sun-cell">
+                <div class="daily-forecast-day" id="day-1"></div>
+                <div class="daily-forecast-date" id="date-1"></div>
+                <div class="daily-forecast-icon" id="day-1-icon"></div>
+                <div class="daily-forecast-temperature">
+                    <div class="daily-forecast-temperature-high" id="day-1-temp-max"></div>
+                    <div class="daily-forecast-temperature-low" id="day-1-temp-low"></div>
+                </div>
+            </div>
+            <div class="forecast-cell" id="mon-cell">
+                <div class="daily-forecast-day" id="day-2"></div>
+                <div class="daily-forecast-date" id="date-2"></div>
+                <div class="daily-forecast-icon" id="day-2-icon"></div>
+                <div class="daily-forecast-temperature">
+                    <div class="daily-forecast-temperature-high" id="day-2-temp-max"></div>
+                    <div class="daily-forecast-temperature-low" id="day-2-temp-low"></div>
+                </div>
+            </div>
+            <div class="forecast-cell" id="tues-cell">
+                <div class="daily-forecast-day" id="day-3"></div>
+                <div class="daily-forecast-date" id="date-3"></div>
+                <div class="daily-forecast-icon" id="day-3-icon"></div>
+                <div class="daily-forecast-temperature">
+                    <div class="daily-forecast-temperature-high" id="day-3-temp-max"></div>
+                    <div class="daily-forecast-temperature-low" id="day-3-temp-low"></div>
+                </div>
+            </div>
+            <div class="forecast-cell" id="wed-cell">
+                <div class="daily-forecast-day" id="day-4"></div>
+                <div class="daily-forecast-date" id="date-4"></div>
+                <div class="daily-forecast-icon" id="day-4-icon"></div>
+                <div class="daily-forecast-temperature">
+                    <div class="daily-forecast-temperature-high" id="day-4-temp-max"></div>
+                    <div class="daily-forecast-temperature-low" id="day-4-temp-low"></div>
+                </div>
+            </div>
+            <div class="forecast-cell" id="thurs-cell">
+                <div class="daily-forecast-day" id="day-5"></div>
+                <div class="daily-forecast-date" id="date-5"></div>
+                <div class="daily-forecast-icon" id="day-5-icon"></div>
+                <div class="daily-forecast-temperature">
+                    <div class="daily-forecast-temperature-high" id="day-5-temp-max"></div>
+                    <div class="daily-forecast-temperature-low" id="day-5-temp-low"></div>
+                </div>
+            </div>
+            <div class="forecast-cell" id="fri-cell">
+                <div class="daily-forecast-day" id="day-6"></div>
+                <div class="daily-forecast-date" id="date-6"></div>
+                <div class="daily-forecast-icon" id="day-6-icon"></div>
+                <div class="daily-forecast-temperature">
+                    <div class="daily-forecast-temperature-high" id="day-6-temp-max"></div>
+                    <div class="daily-forecast-temperature-low" id="day-6-temp-low"></div>
+                </div>
+            </div>
+            <div class="forecast-cell" id="sat-cell">
+                <div class="daily-forecast-day" id="day-7"></div>
+                <div class="daily-forecast-date" id="date-7"></div>
+                <div class="daily-forecast-icon" id="day-7-icon"></div>
+                <div class="daily-forecast-temperature">
+                    <div class="daily-forecast-temperature-high" id="day-7-temp-max"></div>
+                    <div class="daily-forecast-temperature-low" id="day-7-temp-low"></div>
+                </div>
+            </div>
+        </div>
+      
+
+    </main>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
