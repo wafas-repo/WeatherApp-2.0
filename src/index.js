@@ -33,6 +33,11 @@ form.addEventListener('submit', (event) => {
     getWeather(unit);
 });
 
+function init() {
+	getWeather(unit, 'Toronto');
+}
+init()
+
 
 
 
